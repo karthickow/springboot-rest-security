@@ -16,7 +16,7 @@ public class SecurityConfig {
         http.csrf(csrf -> csrf.disable())
                 .authorizeHttpRequests(requests -> requests
                         .requestMatchers("/my-account", "/my-balance", "/my-loans", "/my-cards").authenticated()
-                        .requestMatchers("/contact", "/notices", "/register").permitAll())
+                        .requestMatchers("/contact", "/notices", "/register","/codes").permitAll())
                 .formLogin(Customizer.withDefaults())
                 .httpBasic(Customizer.withDefaults());
 		return http.build();

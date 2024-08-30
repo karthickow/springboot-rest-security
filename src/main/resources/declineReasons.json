@@ -1,0 +1,22 @@
+[
+	{
+		"name": "BNK",
+		"description": "Bankruptcy"
+	},
+	{
+		"name": "FSP",
+		"description": "Fico Score Primary Applicant"
+	},
+	{
+		"name": "FSS",
+		"description": "Fico Score Secondary Applicant"
+	},
+	{
+		"name": "DTI",
+		"description": "Debt to Income"
+	},
+	{
+		"name": "FZB",
+		"description": "Frozen Bureau"
+	}
+]
